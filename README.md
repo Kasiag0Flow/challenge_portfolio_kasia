@@ -63,3 +63,10 @@ Z menu bocznego usunęłabym możliwość tłumaczenia strony. Zamiast tam, umie
 6. Opcja dodawania gracza - „Łączy nas piłka”, „90 mim" - Co autor miał na myśli?
 
 Z mojej strony to by było na tyle. :)
+
+
+
+# Task 2
+## Subtask 3
+
+Myślę, że przypadki testowe piszemy po to, żeby sprawdzić, czy aby na pewno wszystkie opcje i funkcjonalności naszego produktu działają bez zarzutu, a także po to, żeby "wyszło w praniu" - w praniu wstępnym, co jeszcze można poprwić. :)
