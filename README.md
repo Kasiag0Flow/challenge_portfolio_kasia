@@ -72,3 +72,12 @@ Z mojej strony to by było na tyle. :)
 Myślę, że przypadki testowe piszemy po to, żeby sprawdzić, czy aby na pewno wszystkie opcje i funkcjonalności naszego produktu działają bez zarzutu, a także po to, żeby "wyszło w praniu" - w praniu wstępnym, co jeszcze można poprwić. :)
 
 A tutaj link do mojego folderu - https://drive.google.com/drive/u/0/folders/1ZyMR1-Nem-aOdhXHybvSS6MQdxQ80kzR
+
+
+
+# Task 3
+## Subtask 2
+https://docs.google.com/spreadsheets/d/1uSd4J5FV7_Xae8KKzU5hLM9BTYmYHIwNwgAVYdqLutk/edit#gid=0
+
+## Subtask 3
+https://docs.google.com/document/d/1fgMdP6m_jBS0PtYI9Z9F5lNu6aJDIezE9RfHTcebrxg/edit
