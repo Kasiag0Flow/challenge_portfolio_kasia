@@ -81,3 +81,8 @@ https://docs.google.com/spreadsheets/d/1uSd4J5FV7_Xae8KKzU5hLM9BTYmYHIwNwgAVYdqL
 
 ## Subtask 3
 https://docs.google.com/document/d/1fgMdP6m_jBS0PtYI9Z9F5lNu6aJDIezE9RfHTcebrxg/edit
+
+# Task 4
+## Subtask 2
+https://docs.google.com/spreadsheets/d/1MEQIMhPMoHq2xDh9KNNnEYYGmkMZ-AdI5FEXlKMWF_w/edit#gid=0
+
