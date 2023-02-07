@@ -86,3 +86,22 @@ https://docs.google.com/document/d/1fgMdP6m_jBS0PtYI9Z9F5lNu6aJDIezE9RfHTcebrxg/
 ## Subtask 2
 https://docs.google.com/spreadsheets/d/1MEQIMhPMoHq2xDh9KNNnEYYGmkMZ-AdI5FEXlKMWF_w/edit#gid=0
 
+## Subtask 3
+
+### 1. Do czego służy ta aplikacja? Jaki jest cel tej aplikacj?
+
+Aplikacja OLX służy do dodawania ogłoszeń przez osoby, których celem jest sprzedaż pewnych przedmiotów lub zaoferowanie usług oraz do wyszukiwania ofert przez osoby zainteresowane zakupem dancyh produktów/usług.
+
+### 2. Kto ma być użytkownikiem końcowym aplikacji?
+
+Użytkowikiem koncowym aplikacji może być zarówno osoba, która sprzedała oferowany przedmiot/usługę, jak i osoba, która doonalla zakupu przedmiotu/usługi.
+
+
+### 3. Czy według Ciebie aplikacja jest user friendly?
+
+Moim  zdaniem aplikacja jest user friendy. Nie mam się do czego przyczepić.
+
+
+### 4. Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?
+
+Nic dodać, nic ująć - poza małymi bugami ;)
