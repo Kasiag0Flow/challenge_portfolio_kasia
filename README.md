@@ -132,7 +132,9 @@ Nic dodać, nic ująć - poza małymi bugami ;)
 2. Wyświetl film, który powstał w 2019 roku.
 
 SELECT movie_id, price, title, year_of_production
+
 FROM movies
+
 WHERE year_of_production = 2019
 
 ![image](https://user-images.githubusercontent.com/122479548/218848145-e24307ce-7cfe-4558-8203-4ddc14aee35d.png)
