@@ -125,7 +125,7 @@ Nic dodać, nic ująć - poza małymi bugami ;)
 
 ## Subtask 3
 
-1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
+#### 1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
 
 SELECT * FROM `actors`
 
@@ -134,7 +134,7 @@ ORDER BY surname
 ![image](https://user-images.githubusercontent.com/122479548/218850351-b326648a-c98e-4737-b0d6-3d96c7c995b4.png)
 
 
-2. Wyświetl film, który powstał w 2019 roku.
+#### 2. Wyświetl film, który powstał w 2019 roku.
 
 SELECT movie_id, price, title, year_of_production
 
@@ -144,7 +144,7 @@ WHERE year_of_production = 2019
 
 ![image](https://user-images.githubusercontent.com/122479548/218848145-e24307ce-7cfe-4558-8203-4ddc14aee35d.png)
 
-3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+#### 3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
 
 SELECT * FROM `movies`
 
@@ -152,7 +152,7 @@ WHERE year_of_production BETWEEN 1900 AND 1990
 
 ![image](https://user-images.githubusercontent.com/122479548/218853041-950b0be3-8d67-4493-ad96-e0bbdc385ea2.png)
 
-4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
+#### 4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
 
 SELECT price, title
 
@@ -162,8 +162,8 @@ WHERE price < 7
 
 ![image](https://user-images.githubusercontent.com/122479548/218853949-e7fc6478-6436-400b-a734-5381c1456c80.png)
 
-5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
-6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
+#### 5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
+#### 6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
 
 SELECT * FROM `customers`
 
@@ -172,7 +172,7 @@ WHERE customer_id = 2 OR customer_id = 4 OR customer_id = 6;
 ![image](https://user-images.githubusercontent.com/122479548/218861971-af0d6ac5-977d-4a6d-9f13-897d19a330db.png)
 
 
-7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+#### 7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
 
 SELECT * FROM `customers`
 
@@ -180,7 +180,7 @@ WHERE customer_id IN (1, 3, 5);
 
 ![image](https://user-images.githubusercontent.com/122479548/218862653-87f83f9d-cda3-4f5f-ae53-2ee32f12b914.png)
 
-8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
+#### 8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
 
 SELECT * FROM `actors`
 
@@ -188,7 +188,7 @@ WHERE name LIKE "An%";
 
 ![image](https://user-images.githubusercontent.com/122479548/218864436-9d356404-7737-45d9-ae4d-f6b6ff4c9b38.png)
 
-9. Wyświetl dane klienta, który nie ma podanego adresu email.
+#### 9. Wyświetl dane klienta, który nie ma podanego adresu email.
 
 SELECT * FROM `customers`
 
@@ -196,7 +196,7 @@ WHERE email IS NULL;
 
 ![image](https://user-images.githubusercontent.com/122479548/218865894-86b0e96d-b8c6-4639-a475-ef1f1f233aa3.png)
 
-10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
+#### 10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
 
 SELECT * FROM `movies`
 
