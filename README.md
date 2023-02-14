@@ -152,7 +152,7 @@ WHERE year_of_production BETWEEN 1900 AND 1990
 
 ![image](https://user-images.githubusercontent.com/122479548/218853041-950b0be3-8d67-4493-ad96-e0bbdc385ea2.png)
 
-5. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
+4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
 
 SELECT price, title
 
@@ -162,9 +162,44 @@ WHERE price < 7
 
 ![image](https://user-images.githubusercontent.com/122479548/218853949-e7fc6478-6436-400b-a734-5381c1456c80.png)
 
-7. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
-8. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
-9. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
-10. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
-11. Wyświetl dane klienta, który nie ma podanego adresu email.
-12. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
+5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
+6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
+
+SELECT * FROM `customers`
+
+WHERE customer_id = 2 OR customer_id = 4 OR customer_id = 6;
+
+![image](https://user-images.githubusercontent.com/122479548/218861971-af0d6ac5-977d-4a6d-9f13-897d19a330db.png)
+
+
+7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+
+SELECT * FROM `customers`
+
+WHERE customer_id IN (1, 3, 5);
+
+![image](https://user-images.githubusercontent.com/122479548/218862653-87f83f9d-cda3-4f5f-ae53-2ee32f12b914.png)
+
+8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
+
+SELECT * FROM `actors`
+
+WHERE name LIKE "An%";
+
+![image](https://user-images.githubusercontent.com/122479548/218864436-9d356404-7737-45d9-ae4d-f6b6ff4c9b38.png)
+
+9. Wyświetl dane klienta, który nie ma podanego adresu email.
+
+SELECT * FROM `customers`
+
+WHERE email IS NULL;
+
+![image](https://user-images.githubusercontent.com/122479548/218865894-86b0e96d-b8c6-4639-a475-ef1f1f233aa3.png)
+
+10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
+
+SELECT * FROM `movies`
+
+WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
+
+![image](https://user-images.githubusercontent.com/122479548/218867425-9e1e81e6-2b43-4726-8cee-06c9e08475ce.png)
