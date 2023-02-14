@@ -105,3 +105,21 @@ Moim  zdaniem aplikacja jest user friendy. Nie mam się do czego przyczepić.
 #### 4. Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?
 
 Nic dodać, nic ująć - poza małymi bugami ;)
+
+
+# Task 5
+## Subtask 1
+
+* SELECT
+* FROM
+* AS
+* =
+* <
+* >
+* BETWEEN
+* <>
+* LIKE
+* AND
+* IS
+* IS NOT
+* ORDER BY
