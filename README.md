@@ -114,8 +114,7 @@ Nic dodać, nic ująć - poza małymi bugami ;)
 * FROM
 * AS
 * =
-* <
-* >
+* < i >
 * BETWEEN
 * <>
 * LIKE
