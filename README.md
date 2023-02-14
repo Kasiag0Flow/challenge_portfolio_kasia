@@ -127,6 +127,11 @@ Nic dodać, nic ująć - poza małymi bugami ;)
 
 1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
 
+SELECT * FROM `actors`
+
+ORDER BY surname
+
+![image](https://user-images.githubusercontent.com/122479548/218850351-b326648a-c98e-4737-b0d6-3d96c7c995b4.png)
 
 
 2. Wyświetl film, który powstał w 2019 roku.
